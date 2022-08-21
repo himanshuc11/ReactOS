@@ -1,0 +1,19 @@
+{
+  "name": "reactos",
+  "version": "1.0.0",
+  "description": "\"Attempting to build a React OS with best practises\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/himanshuc11/ReactOS.git"
+  },
+  "author": "Himanshu Chhatpar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himanshuc11/ReactOS/issues"
+  },
+  "homepage": "https://github.com/himanshuc11/ReactOS#readme"
+}

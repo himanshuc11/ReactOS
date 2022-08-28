@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "stylelint": "npx stylelint **/*.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -19,10 +20,24 @@
     "@types/node": "18.7.8",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
-    "eslint": "8.22.0",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-next": "12.2.5",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "sass": "^1.54.5",
-    "typescript": "4.7.4"
+    "stylelint": "^14.11.0",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-webpack-plugin": "^3.3.0",
+    "typescript": "^4.7.4"
   },
   "repository": {
     "type": "git",

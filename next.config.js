@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
-const StylelintPlugin = require('stylelint-webpack-plugin'); // line to add
+const StylelintPlugin = require('stylelint-webpack-plugin');
+// line to add
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
